@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SlotActivity"
+    android:orientation="vertical"
+    android:layout_gravity="center_horizontal"
+    android:padding="5dp">
+
+    <TextView
+        android:layout_marginTop="40dp"
+        android:layout_width="wrap_content"
+        android:layout_height="55dp"
+        android:text="Book your slot"
+        android:textSize="30sp"
+        android:textColor="@color/black"
+        android:layout_gravity="center">
+
+
+    </TextView>
+
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:textColor="@color/black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:text="Your Slot Number:">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/setText"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:layout_marginStart="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="slot"
+            ></TextView>
+
+    </LinearLayout>
+
+
+
+    <EditText
+        android:id="@+id/nameBook"
+        android:paddingLeft="5dp"
+        android:textAllCaps="true"
+        android:layout_marginTop="40dp"
+        android:layout_width="match_parent"
+        android:inputType="text"
+        android:layout_height="55dp"
+        android:hint="Full Name"
+        ></EditText>
+
+    <EditText
+        android:id="@+id/carBook"
+        android:inputType="text"
+        android:paddingLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:hint="Car Number"
+        ></EditText>
+
+    <EditText
+        android:id="@+id/durationBook"
+        android:maxEms="3"
+        android:inputType="number"
+        android:paddingLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:hint="Duration"
+        ></EditText>
+
+    <EditText
+        android:id="@+id/numBook"
+        android:paddingLeft="5dp"
+        android:inputType="phone"
+        android:maxEms="10"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:hint="Contact Number"
+        ></EditText>
+
+    <EditText
+        android:id="@+id/emailId"
+        android:paddingLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:hint="Email id"
+        android:inputType="textEmailAddress"
+        ></EditText>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/bookSlot"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Book"
+        android:textColor="@color/white"
+        android:background="@drawable/bnt2"
+        android:textSize="20sp">
+
+    </androidx.appcompat.widget.AppCompatButton>
+
+
+
+</LinearLayout>

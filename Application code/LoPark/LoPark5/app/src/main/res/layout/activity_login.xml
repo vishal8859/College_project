@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+
+    android:padding="10dp">
+
+    <ImageView
+        android:layout_marginTop="20dp"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:src="@drawable/loginview"
+        ></ImageView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome to LoPark"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        ></TextView>
+
+    <TextView
+        android:layout_marginTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login for continue"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        ></TextView>
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <EditText
+            android:id="@+id/emailCheck"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:paddingLeft="5dp"
+            android:hint="Enter your email id"
+            ></EditText>
+
+        <EditText
+            android:id="@+id/passCheck"
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:paddingLeft="5dp"
+            android:hint="Enter your password"
+            ></EditText>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_marginTop="5dp"
+            android:id="@+id/login"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@drawable/editbtn"
+            android:text="Login">
+        </androidx.appcompat.widget.AppCompatButton>
+
+       <androidx.appcompat.widget.AppCompatButton
+           android:layout_marginTop="5dp"
+           android:id="@+id/signup"
+           android:layout_width="match_parent"
+           android:layout_height="60dp"
+           android:background="@drawable/bnt2"
+           android:textColor="@color/white"
+           android:text="SignUp">
+
+       </androidx.appcompat.widget.AppCompatButton>
+
+        <TextView
+            android:layout_marginTop="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:text="Forgot Password?">
+
+        </TextView>
+
+    </LinearLayout>
+
+</LinearLayout>

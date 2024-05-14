@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignUpActivity"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:padding="10dp">
+
+    <ImageButton
+        android:id="@+id/backLogin"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center_vertical"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@color/white"
+        android:src="?attr/homeAsUpIndicator"
+        ></ImageButton>
+
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:src="@drawable/signup"
+        ></ImageView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign Up Now"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        ></TextView>
+
+    <TextView
+        android:layout_marginTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Please fill the details below"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        ></TextView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <EditText
+            android:id="@+id/userName"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:paddingLeft="5dp"
+            android:hint="Full Name"
+            ></EditText>
+
+        <EditText
+            android:id="@+id/emailId"
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:paddingLeft="5dp"
+            android:hint="Email id"
+            ></EditText>
+
+        <EditText
+            android:id="@+id/passWord"
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:paddingLeft="5dp"
+            android:hint="Password"
+            ></EditText>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_marginTop="5dp"
+            android:id="@+id/signup"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@drawable/bnt2"
+            android:textColor="@color/white"
+            android:text="SignUp">
+
+        </androidx.appcompat.widget.AppCompatButton>
+    </LinearLayout>
+</LinearLayout>

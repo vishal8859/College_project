@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "536838557273",
+    "project_id": "lopark-cebbe",
+    "storage_bucket": "lopark-cebbe.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:536838557273:android:44293715c1f2b42ea9ab48",
+        "android_client_info": {
+          "package_name": "in.adityashukla.lopark"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "536838557273-3f5jhp250kaiv9m6dk3qruvglam61mqe.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB7HhO3A1BU6xAkkbuZBw5qfWpPVDUhkOk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "536838557273-3f5jhp250kaiv9m6dk3qruvglam61mqe.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
